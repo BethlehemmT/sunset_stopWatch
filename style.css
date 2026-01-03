@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('cartoon.jpeg'); /* exact file name here */
+    background-size: cover;       /*fill the screen */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat; /* don’t tile */
+    background-attachment: fixed; 
+    image-rendering: auto;
+   
+}
+
+#myH1{
+    font-size:4rem;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+   }
+
+ #container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   border-radius: 50px;
+    padding:30px;
+    background-color: transparent;
+    margin-top:9%;
+    margin-left:60%;
+}
+
+ #display{
+    font-size:5rem;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    margin: 5px;
+    min-width:125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#startButton{
+    background-color: hsl(115, 100%, 40%)
+}
+
+#startButton:hover{
+    background-color:hsl(115, 100%, 30%)
+}
+
+#stopButton{
+    background-color: hsl(10, 90%, 50%)
+}
+
+#stopButton:hover{
+    background-color:hsl(10, 90%, 40%)
+}
+
+#resetButton{
+    background-color: hsl(205, 90%, 60%)
+}
+
+#resetButton:hover{
+    background-color:hsl(205, 90%, 40%)
+}
